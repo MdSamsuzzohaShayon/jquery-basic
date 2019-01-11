@@ -16,8 +16,7 @@ $(document).ready(function () {
 
 
 // SAME THING WITH JQUERY
-/*
 $("#test").click(function () {
     $(this).hide();
-});*/
+});
 
