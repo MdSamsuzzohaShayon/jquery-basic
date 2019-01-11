@@ -7,7 +7,9 @@ body {
     font-size: 1rem;
     margin: 0;
     padding: 0;
-    background: rgb(180, 180, 180);
+}
+.container{
+    background: rgb(231, 231, 231);
 }
 /* header svg{
     width: 30px;
@@ -19,10 +21,11 @@ svg{
     background: rgb(41, 41, 41);
 }
 #side-nav{
+    position: absolute;
     padding-left: 60px;
     width: 300px;
     height: 100vh;
-    background: rgb(255, 255, 255);
+    background: rgb(189, 189, 189);
     font-size: 1.2rem;
     text-transform: capitalize;
 }
@@ -39,8 +42,33 @@ svg{
     list-style: none;
 }
 
+#side-nav ul li:hover{
+    background: rgb(80, 80, 80);
+}
+
 #side-nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
     
+}
+.active{
+    background: red;
+}
+
+
+.info-box{
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    color: aliceblue;
+    margin-top: 100px;
+    background: rgb(53, 1, 83);
+}
+.info-title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.info-content{
+    background: rgb(61, 0, 48);
 }
